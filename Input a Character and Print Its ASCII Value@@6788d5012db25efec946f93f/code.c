@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-char* welcome() {
+main int() {
     int a;
     scanf("%d",&a);
     printf("ASCII Value: %d");
