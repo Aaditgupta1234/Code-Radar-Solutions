@@ -7,6 +7,6 @@ int main() {
     printf("Average: %.2f",d);
     if(d==0.00){
         printf("")
-    }
+    };
     return 0;
 }
