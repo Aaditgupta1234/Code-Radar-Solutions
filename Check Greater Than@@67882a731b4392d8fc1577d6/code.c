@@ -8,5 +8,4 @@ int main() {
     else{
         pirntf("False");
     }
-    return 0;
 }
