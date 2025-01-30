@@ -6,9 +6,8 @@ int main() {
         printf("True");
     }else if((a<0)&&(b<0)){
         printf("False");
-    }esle(
+    }esle{
         printf("True");
-    )
-    printf("%s", welcome());
+    }
     return 0;
 }
