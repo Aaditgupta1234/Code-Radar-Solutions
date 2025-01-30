@@ -6,7 +6,7 @@ int main() {
     d=(a+b+c)/3;
     printf("Average: %.2f",d);
     if(d==0.00){
-        printf("")
+        printf("");
     };
     return 0;
 }
