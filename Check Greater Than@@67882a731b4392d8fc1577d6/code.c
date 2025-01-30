@@ -6,6 +6,6 @@ int main() {
         printf("/n True");
     }
     else{
-        pirntf("/n False");
+        printf("/n False");
     }
 }
