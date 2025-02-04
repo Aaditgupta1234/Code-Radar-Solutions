@@ -10,7 +10,7 @@ int main() {
         printf("%d",a-b);
     } 
     else if(c=='/'){
-        if(a>b){
+        if(b==0){
             printf("error");
         }
         else if(b>a){
