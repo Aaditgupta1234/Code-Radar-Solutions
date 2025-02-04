@@ -7,12 +7,13 @@ int main() {
         printf("%d",a+b);
     }else if(c=='-'){
         printf("%d",a-b);
-    } else if(c=='/'){
-      if(a>b){
-        printf("%d",a/b);
-      }else if(b>a){
-        printf("Error");
-      }
+    } 
+    // else if(c=='/'){
+    //   if(a>b){
+    //     printf("%d",a/b);
+    //   }else if(b>a){
+    //     printf("Error");
+    //   }
     }else if(c=='*'){
         printf("%d",a*b);
     }
