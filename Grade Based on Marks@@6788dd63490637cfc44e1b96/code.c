@@ -5,13 +5,13 @@ int main() {
     if(a>=90){
         printf("A");
     }else if((a>=80)&&(a<=90)){
-        printf("B")
+        printf("B");
     }else if((a>=70)&&(a<80)){
-        printf("C")
+        printf("C");
     }else if((a>=60)&&(a<70)){
-        printf("D")
+        printf("D");
     }else if(a<60){
-        printf("F")
+        printf("F");
     }
     return 0;
 }
