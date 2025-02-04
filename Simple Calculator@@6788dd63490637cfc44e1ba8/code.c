@@ -11,7 +11,7 @@ int main() {
       if(a>b){
         printf("%d",a/b);
       }else if(b>a){
-        printf("Error")
+        printf("Error");
       }
     }else if(c=='*'){
         printf("%d",a*b);
