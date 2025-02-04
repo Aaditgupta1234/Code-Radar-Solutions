@@ -29,6 +29,5 @@ int main() {
     }else{
         printf("Invalid month");
     }
-    printf("%s", welcome());
     return 0;
 }
