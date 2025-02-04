@@ -4,6 +4,7 @@ int main() {
     sacnf("%d",&a);
     if(a<=0){
         printf("Freezing");
-    }else("Above Freezing");
+    }else{
+        ("Above Freezing");}
     return 0;
 }
