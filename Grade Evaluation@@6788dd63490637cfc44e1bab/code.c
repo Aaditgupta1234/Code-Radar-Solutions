@@ -2,6 +2,8 @@
 int main() {
     char a[100];
     scanf("%s",&a);
-    printf("%s",a);
+    if(a=="A"){
+        printf("Excellent");
+    }
     return 0;
 }
