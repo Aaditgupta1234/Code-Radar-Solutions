@@ -14,7 +14,7 @@ int main() {
     //     printf("%d",a/b);
     //   }else if(b>a){
     //     printf("error");
-    //   }
+       }
     // }else if(c=='*'){
     //     printf("%d",a*b);
     // }
