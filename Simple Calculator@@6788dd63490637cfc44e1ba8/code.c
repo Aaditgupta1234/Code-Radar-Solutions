@@ -8,7 +8,8 @@ int main() {
     }
      else if(c=='-'){
         printf("%d",a-b);
-    // } else if(c=='/'){
+    } 
+    // else if(c=='/'){
     //   if(a>b){
     //     printf("%d",a/b);
     //   }else if(b>a){
