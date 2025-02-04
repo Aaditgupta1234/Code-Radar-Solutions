@@ -5,9 +5,9 @@ int main() {
     scanf("%d %d %c",&a,&b,&c);
     if(c=='+'){
         printf("%d",a+b);
-    }else if(c==''-''){
+    }else if(c=='-'){
         printf("%d",a-b);
-    }else if(c==''/'){
+    }else if(c=='/'){
         printf("%d",a/b);
     }else if(c=='*'){
         printf("%d",a*b);
