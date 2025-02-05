@@ -1,13 +1,13 @@
 #include <stdio.h>
 int main() {
     char a;
-    scanf("%s",&a);
+    scanf("%c",&a);
     if(a==char()){
         printf("Uppercase");
      }
-    // else if(a=="%s"){
-    //     printf("Lowercase");
-    // }else{
-    //     printf("Not an alphabet");}
+    else if(a=="%s"){
+        printf("Lowercase");
+    }else{
+        printf("Not an alphabet");}
     return 0;
 }
