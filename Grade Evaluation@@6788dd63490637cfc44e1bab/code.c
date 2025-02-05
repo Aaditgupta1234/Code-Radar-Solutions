@@ -2,7 +2,7 @@
 int main() {
     char a[100];
     scanf("%s",&a);
-    if(a=="A"){
+    if(a=='A'){
         printf("Excellent");
     }
     return 0;
