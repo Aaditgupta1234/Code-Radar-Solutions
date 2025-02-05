@@ -2,24 +2,24 @@
 int main() {
     char a[100];
     scanf("%S",&a);
-    // switch (a){
-        // case "A":
-        // printf("Excelent\n");
-        // break;
-    //     case"B":
-    //     printf("Good\n");
-    //     break;
-    //     case"C":
-    //     printf("Average");
-    //     case"D":
-    //     printf("Below Average");
-    //     break;
-    //     case"F":
-    //     printf("Fail");
-    //     break;
-        // default:
-        // printf("Invalid grade");
-        // break;
-    //}
+    switch (a){
+        case "A":
+        printf("Excelent\n");
+        break;
+        case"B":
+        printf("Good\n");
+        break;
+        case"C":
+        printf("Average");
+        case"D":
+        printf("Below Average");
+        break;
+        case"F":
+        printf("Fail");
+        break;
+        default:
+        printf("Invalid grade");
+        break;
+    }
     return 0;
 }
