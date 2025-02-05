@@ -6,6 +6,9 @@ int main() {
         case "R":
         printf("Stop");
         break;
+        default:
+        printf("Inavalid input");
+        break;
     }
     return 0;
 }
