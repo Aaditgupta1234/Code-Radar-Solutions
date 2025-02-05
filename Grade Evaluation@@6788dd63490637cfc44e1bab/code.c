@@ -1,10 +1,10 @@
 #include <stdio.h>
 int main() {
-    char a[100];
+    char a[10];
     scanf("%S",&a);
     switch (a){
         case 'A':
-            printf("Excelent");
+            printf("Excelent\n");
             break;
         // case 'B':
         //     printf("Good\n");
