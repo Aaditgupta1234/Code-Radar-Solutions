@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
     char a[100];
-    scanf("%s",&a);
+    scanf("%S",&a);
     // switch (a){
         // case "A":
         // printf("Excelent\n");
