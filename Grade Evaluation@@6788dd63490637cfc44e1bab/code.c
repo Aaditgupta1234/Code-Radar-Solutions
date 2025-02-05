@@ -2,10 +2,10 @@
 int main() {
     char a[100];
     scanf("%s",&a);
-    // switch (a){
-    //     case "A":
-    //     printf("Excelent\n");
-    //     break;
+    switch (a){
+        case "A":
+        printf("Excelent\n");
+        break;
     //     case"B":
     //     printf("Good\n");
     //     break;
@@ -17,9 +17,9 @@ int main() {
     //     case"F":
     //     printf("Fail");
     //     break;
-    //     default:
-    //     printf("Invalid grade");
-    //     break;
-    // }
+        default:
+        printf("Invalid grade");
+        break;
+    }
     return 0;
 }
