@@ -2,10 +2,10 @@
 int main() {
     char a;
     scanf("%d",&a);
-    switch (a){
-        case "A":
-        printf("Excelent\n");
-        break;
+    // switch (a){
+        // case "A":
+        // printf("Excelent\n");
+        // break;
         // case"B":
         // printf("Good\n");
         // break;
