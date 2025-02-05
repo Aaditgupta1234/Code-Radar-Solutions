@@ -3,7 +3,7 @@ int main() {
     char a[100];
     scanf("%S",&a);
     switch (a){
-        case "A":
+        case 'A':
         printf("Excelent\n");
         break;
         // case"B":
