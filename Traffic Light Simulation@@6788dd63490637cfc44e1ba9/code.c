@@ -6,6 +6,11 @@ int main() {
         case 'R':
         printf("Stop");
         break;
+        case 'G':
+        printf("Go");
+        break;
+        case 'Y':
+        printf("Slow Down")
         default:
         printf("Inavalid input");
         break;
