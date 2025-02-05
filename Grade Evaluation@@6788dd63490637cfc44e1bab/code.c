@@ -3,9 +3,9 @@ int main() {
     char a[100];
     scanf("%s",&a);
     switch (a){
-        case "A":
-        printf("Excelent\n");
-        break;
+        // case "A":
+        // printf("Excelent\n");
+        // break;
     //     case"B":
     //     printf("Good\n");
     //     break;
