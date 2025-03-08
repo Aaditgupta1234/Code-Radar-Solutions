@@ -7,7 +7,7 @@ int main() {
         number >>= 1;
     }
     if (position < 32) {
-        printf("The position of the lowest set bit is: %d\n", position);
+        printf("%d\n", position);
     } else {
         printf("No set bit found.\n");
     }
