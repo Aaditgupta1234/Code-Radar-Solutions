@@ -4,10 +4,10 @@ int main() {
     scanf("%c",&a);
     if(a=='a'||a=='i'||a=='O'||a=='u'||a=='e'){
         printf("Vowel");
-    }else if(a>=0||a<=0){
+    }else if(a>=0||a<=9){
         printf("Digit");
     }
-    else{
+    else if(a>){
         printf("Consonant");
     }
     return 0;
