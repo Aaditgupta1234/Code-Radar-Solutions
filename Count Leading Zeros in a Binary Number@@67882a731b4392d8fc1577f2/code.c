@@ -9,7 +9,7 @@ int main() {
         }
         count++;
     }
-    printf("Leading zeros: %d\n", count);
+    printf("%d\n", count);
     return 0;
 }
 
