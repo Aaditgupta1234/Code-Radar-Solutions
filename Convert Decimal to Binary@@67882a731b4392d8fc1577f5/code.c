@@ -1,18 +1,19 @@
 #include <stdio.h>
-
 int main() {
-    unsigned int number;
-    int i;
-
-    // Input the number
-    scanf("%u", &number);
-
-    // Output the binary representation
-    for (i = 31; i >= 0; i--) {
-        printf("%d", (number >> i) );
+    int n;
+    scanf("%d", &n);
+    int flag = 0; 
+    for (int i = 31; i >= 0; i--) { 
+        if ((n >> i) & 1) { 
+            flag = 1;
+            printf("1");
+        } else if (flag) {
+            printf("0");
+        }
     }
-    printf("\n");
-
+    if (!flag) { 
+        printf("0");
+    }
     return 0;
 }
 
