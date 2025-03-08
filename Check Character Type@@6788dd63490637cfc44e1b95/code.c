@@ -2,8 +2,16 @@
 int main() {
     char a;
     scanf("%c",&a);
-    if(a=='a'||a=='i'||a=='O'||a=='u'||a=='e'){
-        printf("Vowel");
+    if ((a >= 'A' && a <= 'Z') || (a >= 'a' && a <= 'z')) {
+        switch (ch) {
+            case 'A': case 'E': case 'I': case 'O': case 'U':
+            case 'a': case 'e': case 'i': case 'o': case 'u':
+                printf("Vowel\n");
+                break;
+            default:
+                printf("Consonant\n");
+                break;
+        }
     }else if(a>=0||a<=9){
         printf("Digit");
     }
