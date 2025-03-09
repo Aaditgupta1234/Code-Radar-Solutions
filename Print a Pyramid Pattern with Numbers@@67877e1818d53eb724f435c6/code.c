@@ -9,7 +9,7 @@ int main() {
         for (int j = 1; j <= N - i; ++j) {
             printf("  "); // Print spaces for alignment
         }
-        for (char ch = 'A'; ch < 'A' + i; ++ch) {
+        for (char ch = '1'; ch < '9' + i; ++ch) {
             printf("%c ", ch);
         }
         printf("\n");
