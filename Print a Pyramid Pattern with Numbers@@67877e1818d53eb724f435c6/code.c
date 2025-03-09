@@ -7,13 +7,12 @@ int main() {
     for (int i = 1; i <= n; i++) {  // Loop for rows
         for (int j = 1; j <= i; j++) {  // Loop for numbers in a row
             printf("%d", j);
-            if (j < i) {  // Avoid trailing space
+            if (j < i) {  
                 printf(" ");
             }
         }
-        printf("\n");  // Move to the next line
+        printf("\n");  
     }
-
     return 0;
 }
 
