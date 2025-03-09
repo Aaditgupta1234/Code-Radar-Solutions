@@ -7,7 +7,7 @@ int main() {
     for (int i = 1; i <= n; i++) {  // Loop for rows
         for (int j = 1; j <= i; j++) {  // Loop for numbers in a row
             printf("%d", j);
-            if (j < i) { // Avoid trailing space at the end of the line
+            if (j < i) {  // Avoid trailing space
                 printf(" ");
             }
         }
