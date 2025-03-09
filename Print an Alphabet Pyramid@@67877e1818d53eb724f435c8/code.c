@@ -6,7 +6,7 @@ int main() {
         for (int j = 1; j <= N - i; ++j) {
             printf("  "); 
         }
-        for (char ch = 'A'; ch < 'A' + i; ++ch) {
+        for (char ch = 'A'; ch < 'A' + i;++ch) {
             printf("%c ", ch);
         }
         printf("\n");
