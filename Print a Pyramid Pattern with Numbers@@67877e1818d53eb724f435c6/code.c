@@ -2,14 +2,18 @@
 
 int main() {
     int N;
+    printf("Enter the number of rows: ");
     scanf("%d", &N);
 
     for (int i = 1; i <= N; ++i) {
         for (int j = 1; j <= N - i; ++j) {
             printf("  "); // Print spaces for alignment
         }
-        for (char ch = '1'; ch < '9' + i; ++ch) {
-            printf("%d ", ch);
+        for (int num = 1; num <= i; ++num) {
+            printf("%d ", num);
+        }
+        for (int num = i - 1; num > 0; --num) {
+            printf("%d ", num);
         }
         printf("\n");
     }
