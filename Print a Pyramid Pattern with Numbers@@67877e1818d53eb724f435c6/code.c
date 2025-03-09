@@ -1,21 +1,17 @@
 #include <stdio.h>
+
 int main() {
-    int N;
-    scanf("%d", &N);
-    int space, num;
-    for (int i = 1; i <= N; ++i) {
-        for (space = 1; space <= N - i; ++space) {
-            printf("  ");
+    int n;
+    scanf("%d", &n);  // Take input
+
+    for (int i = 1; i <= n; i++) {  // Loop for rows
+        for (int j = 1; j <= i; j++) {  // Loop for numbers in a row
+            printf("%d ", j);
         }
-        for (num = 1; num <= i; ++num) {
-            printf("%d ", num);
-        }
-        for (num = i - 1; num > 0; --num) {
-            printf("%d ", num);
-        }
-        printf("\n");
+        printf("\n");  
     }
     return 0;
 }
+
 
 
